@@ -1,0 +1,11 @@
+---
+name: numpy-best-practices.mdc
+description: Best practices for working with NumPy
+globs: **/*.{py}
+---
+
+- Use NumPy's universal functions (ufuncs) for element-wise operations
+- Employ broadcasting for efficient array operations
+- Utilize `np.where` for conditional operations instead of loops
+- Use `np.array` with appropriate `dtype` for memory-efficient arrays
+- Implement proper array slicing techniques for data manipulation

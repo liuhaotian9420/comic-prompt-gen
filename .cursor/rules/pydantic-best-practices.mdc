@@ -1,0 +1,13 @@
+---
+name: pydantic-best-practices.mdc
+description: Best practices for data validation and settings management with Pydantic
+globs: **/*.{py}
+---
+
+- Use Pydantic models for data validation and serialization
+- Implement custom validators using `@validator` decorator for complex validation logic
+- Utilize `BaseSettings` for configuration management
+- Use `Field` to specify additional field properties and constraints
+- Implement proper error handling using `ValidationError` exceptions
+- Use `BaseModel` for data validation and settings
+- Leverage `pydantic.dataclasses` for dataclass support

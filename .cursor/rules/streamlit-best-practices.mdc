@@ -1,0 +1,11 @@
+---
+name: streamlit-best-practices.mdc
+description: Best practices for Streamlit applications
+globs: **/*.{py}
+---
+
+- Use `st.cache_data` for expensive computations to improve performance
+- Organize your app into multiple files using `st_pages` for better maintainability
+- Implement proper error handling with `st.exception` for user-friendly error messages
+- Use `st.set_page_config` to customize the page layout and appearance
+- Leverage Streamlit components for interactive elements like charts and maps

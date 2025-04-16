@@ -1,0 +1,11 @@
+---
+name: ruff-best-practices.mdc
+description: Best practices for using Ruff as a linter and formatter
+globs: **/*.py
+---
+
+- Configure Ruff to use a consistent line length (e.g., 88 as per your settings)
+- Use Ruff's auto-fix capabilities with `ruff --fix`
+- Leverage Ruff's specific rules (RUF) for Python best practices
+- Integrate Ruff into your CI/CD pipeline for automated code quality checks
+- Use per-file ignores for test-specific rules to avoid false positives
